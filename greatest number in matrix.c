@@ -1,0 +1,31 @@
+#include<stdio.h>
+main(){
+int i,j,*u,greatest,r,c,arr[40][40],p=5,sum=0;
+scanf("%d%d",&r,&c);
+for(i=0;i<r;i++){
+    for(j=0;j<c;j++){
+        scanf("%d",&arr[i][j]);
+    }
+}
+while(p>0){
+for(i=0;i<r;i++){
+    for(j=1;j<c;j++){
+        greatest=arr[0][0];
+        if(greatest<arr[i][j]){
+            greatest=arr[i][j];
+        }
+
+    }
+}
+for(i=r-1;i<r;i++){
+    for(j=c-1;j<c;j++){
+        a[i-1]a[j-1]=a[i][j];
+    }
+}
+printf("\n%d",greatest);
+sum=sum+greatest;
+greatest=0;
+p--;
+}
+printf("\n%d",sum);
+}
